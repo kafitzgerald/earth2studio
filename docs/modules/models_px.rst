@@ -68,3 +68,5 @@ Thus are typically used to generate forecast predictions.
       StormScopeGOES
       StormScopeMRMS
       UCast
+      WxFormer6H
+      WxFormer1H

@@ -52,6 +52,7 @@ from earth2studio.models.px.stormscope import (
     StormScopeMRMS,
 )
 from earth2studio.models.px.ucast import UCast
+from earth2studio.models.px.wxformer import WxFormer1H, WxFormer6H
 
 # Silence warning spam from various models
 warnings.filterwarnings("ignore")
