@@ -226,6 +226,9 @@ stormscope = [
     "earth2studio[utils]",
 ]
 ucast = []
+wxformer = [
+    "miles-credit @ git+https://github.com/NCAR/miles-credit.git",
+]
 # DX Models
 cbottle = [
     "earth2grid",
@@ -387,6 +390,9 @@ docs = [
     "nvidia-sphinx-theme",
     "sphinx-badges",
 ]
+
+[tool.hatch.metadata]
+allow-direct-references = true
 
 [tool.hatch.version]
 path = "earth2studio/__init__.py"
