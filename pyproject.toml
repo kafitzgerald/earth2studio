@@ -329,7 +329,43 @@ conflicts = [
     { extra = "aifs2" },
     { extra = "aifs2ens" },
     { extra = "aifsens" },
-  ]
+  ],
+  [
+    { extra = "wxformer" },
+    { extra = "all" },
+  ],
+  [
+    { extra = "wxformer" },
+    { extra = "atlas" },
+  ],
+  [
+    { extra = "wxformer" },
+    { extra = "interp-modafno" },
+  ],
+  [
+    { extra = "wxformer" },
+    { extra = "stormcast" },
+  ],
+  [
+    { extra = "wxformer" },
+    { extra = "stormscope" },
+  ],
+  [
+    { extra = "wxformer" },
+    { extra = "corrdiff" },
+  ],
+  [
+    { extra = "wxformer" },
+    { extra = "cosmo" },
+  ],
+  [
+    { extra = "wxformer" },
+    { extra = "stormcast-conus" },
+  ],
+  [
+    { extra = "wxformer" },
+    { extra = "da-healda" },
+  ],
 ]
 default-groups = ["dev", "build"]
 # Needed for some packages that build with PEP 518
